@@ -9,7 +9,7 @@
  * @since 1.0.0
  */
 
-if ( ! function_exists( 'twentytwenty_theme_support' ) ) :
+if ( ! function_exists('twentytwenty_theme_support') ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
