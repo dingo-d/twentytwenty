@@ -9,7 +9,7 @@
  * @since 1.0.0
  */
 
-if ( ! function_exists( 'twentytwenty_theme_support' ) ) :
+if ( ! function_exists('twentytwenty_theme_support') ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
@@ -20,20 +20,20 @@ if ( ! function_exists( 'twentytwenty_theme_support' ) ) :
 	function twentytwenty_theme_support() {
 
 		// Add default posts and comments RSS feed links to head.
-		add_theme_support( 'automatic-feed-links' );
+		add_theme_support('automatic-feed-links');
 
 		// Custom background color
 		add_theme_support(
 			'custom-background',
-			array(
+			[
 				'default-color' => 'F5EFE0',
-			)
+			]
 		);
 
 		// Set content-width
 		global $content_width;
 		if ( ! isset( $content_width ) ) {
-			$content_width = 580;
+			$content_width = 600;
 		}
 
 		/*
