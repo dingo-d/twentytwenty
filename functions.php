@@ -33,7 +33,7 @@ if ( ! function_exists( 'twentytwenty_theme_support' ) ) :
 		// Set content-width
 		global $content_width;
 		if ( ! isset( $content_width ) ) {
-			$content_width = 580;
+			$content_width = 600;
 		}
 
 		/*
